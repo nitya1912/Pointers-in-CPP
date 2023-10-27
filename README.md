@@ -49,3 +49,19 @@ Algorithm includes: 1)Declare an integer array var with 5 elements and initializ
 The code prints the values of an integer array using a pointer. It initializes a pointer to the first array element and iterates through the array, incrementing the pointer to access and display each element.
 
 **END OF CODE-16**
+
+# Code-17
+
+# Title:
+This C++ code is an attempt to print a number from an integer array using a pointer, but there is a small issue in the code. 
+
+# Theory:
+The code attempts to print a number from an integer array using a pointer but has issues with pointer initialization and accessing the correct array element based on user input.
+
+# Algorithm:
+Algorithm includes: 1)Declare an integer array var with 10 elements and initialize it with values from 1 to 10. 2)Declare an integer pointer ptr and attempt to initialize it with the memory address of the first element of the array, but this is done incorrectly. It should be corrected to int *ptr = var;. 3)Prompt the user to enter the position of the number to be printed. 4)Attempt to retrieve a number from the array using the pointer ptr. However, there is an issue in this part, and it doesn't correctly access the element based on the user's input. 5)Attempt to print the number at the entered position, but this part may not work as intended due to the issue mentioned in step 4.
+
+# Explanation of Code:
+This code attempts to print a number from an integer array using a pointer. However, there are issues with pointer initialization and accessing the correct array element based on user input, which may result in incorrect output.
+
+**END OF CODE-17**
